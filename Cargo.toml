@@ -1,11 +1,15 @@
 [package]
-name = "rust_game_engine"
+name = "calculatorcalculator"
 version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "parser"
-path = "src/parser.rs"
+name = "main"
+path = "src/main.rs"
+
+[lib]
+name = "tcrate"
+path = "src/lib.rs"
 
 [dependencies]
 regex = "1"
