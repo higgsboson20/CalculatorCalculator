@@ -18,7 +18,7 @@
 
 3. Implicit logs: logx (log_10x) and lnx (log_ex)
 
-4. Explicit logs: log_nx
+4. Explicit logs: log_n(x)
 
 
 
@@ -29,3 +29,12 @@
 2. No spaces required between characters
 
 3. Make sure the equation is mathematically correct => has one equals sign, doesnt have empty functions (eg '++3')
+
+
+# Algorithms Used For Numerical Evaulations #
+
+1. Newton-Raphson
+2. Bisection method
+3. Brent's method: https://en.wikipedia.org/wiki/Brent%27s_method
+
+f(x0, x1, ..., xn) = g(x0, x1, ..., xn) can be turned into an root-finding problem: f - g = 0, which is the basis behind the above methods
